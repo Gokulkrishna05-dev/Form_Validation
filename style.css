@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    min-height: 100dvh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    min-width: 30%;
+    margin: 0 auto;
+    background: linear-gradient(to bottom,orange,orangered);
+    border-radius: 5px;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+}
+#form div{
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+}
+label{
+    width: 50%;
+    
+}
+.input{
+    /* display: block; */
+    /* background-color: red; */
+    width: 100%;
+}
+
+input{
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#submit{
+    padding: 8px;
+    width: 50%;
+    margin: 0 auto;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.6rem;
+    background: linear-gradient(to right,yellow,orange);
+}
+#success{
+    height: 100px;
+    max-width: 300px;
+    background-color: green;
+    margin: 0 auto;
+    display: none;
+}
+.err{
+    margin-bottom: 40px;
+    margin-top: 9px;
+}
+@media screen and (max-width:330px){
+    #form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    background-color: aqua;
+    min-width: 0%;
+    margin: 0 auto;
+    padding: 10px;
+}
+#form div{
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+}
+body{
+background-color: #ee5522;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23d23d09' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E")};
